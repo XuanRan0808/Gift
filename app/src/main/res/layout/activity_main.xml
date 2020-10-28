@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical">
+
+	<TextView
+		android:text="请输入邀请码后进入软件！"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="28sp"/>
+
+	<EditText
+		android:hint="长按下方按键使用默认邀请码"
+		android:layout_width="wrap_content"
+		android:ems="10"
+		android:layout_height="wrap_content"
+		android:id="@+id/activitymainEditText1"/>
+
+	<Button
+		android:layout_width="250dp"
+		android:layout_height="wrap_content"
+		android:text="进入！"
+		android:id="@+id/activitymainButton1"/>
+
+	
+</LinearLayout>
+

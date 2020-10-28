@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="top|center">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:id="@+id/time"
+		android:layout_marginTop="40dp"
+		android:textStyle="bold|italic|normal"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="请耐心等待时间结束，时间结束之后应用自动退出"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_marginTop="40dp"
+		android:textStyle="bold"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="锁定时间都是由你设置邀请码那个人所设置的，找他算账吧"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_marginTop="40dp"
+		android:textStyle="bold"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Created By XuanRan 3135419729@qq.com"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_marginTop="40dp"
+		android:textStyle="italic"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Button"
+		android:id="@+id/newoneButton1"/>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:id="@+id/text1"
+		android:layout_marginTop="40dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:id="@+id/text2"
+		android:layout_marginTop="40dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:id="@+id/text3"
+		android:layout_marginTop="40dp"
+		android:visibility="gone"/>
+
+</LinearLayout>
+

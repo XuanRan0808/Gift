@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top|left|center">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="邀请密码"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/yymm"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:numeric="integer"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:hint="锁定时间"
+        android:id="@+id/time"/>
+
+    <SeekBar
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeSeekBar"/>
+
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:numeric="integer"
+        android:hint="锁定时系统音量"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/volume"
+        android:layout_marginTop="10dp"/>
+
+    <SeekBar
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/volume_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注：安卓系统中音量15表最大声音，0表最低"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:singleLine="true"
+        android:hint="页面显示内容1"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:singleLine="true"
+        android:hint="页面显示内容2"
+        android:layout_height="wrap_content"
+        android:id="@+id/text2"/>
+
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:singleLine="true"
+        android:hint="页面显示内容3"
+        android:layout_height="wrap_content"
+        android:id="@+id/text3"
+        android:visibility="gone"/>
+
+    <CheckBox
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:enabled="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启用锁定震动"
+        android:layout_marginTop="10dp"
+        android:id="@+id/InvicodeCheckBox1"/>
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="生成"
+        android:layout_marginTop="30dp"
+        android:id="@+id/Generate"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By XuanRan Email:3135419729@qq.com"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="本软件仅供娱乐，开发者不为你所造成的任何后果负责。"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="为保证使用者听力，当应用检测到用户已连接耳机时，音量会自动设置为6"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+</LinearLayout>
+

@@ -90,7 +90,6 @@ public class Invicode extends Activity {
                     bm.setText1(text1.getText().toString());
                     bm.setText2(text2.getText().toString());
                     bm.setText3(text3.getText().toString());
-/*
                     bm.save(new SaveListener<String>() {
                         @Override
                         public void done(String s, BmobException e) {
@@ -106,7 +105,7 @@ public class Invicode extends Activity {
                             }
                         }
 
-                    });*/
+                    });
                 } else {
                     AlertDialog.Builder al = new AlertDialog.Builder(Invicode.this);
                     al.setTitle("数据错误");

@@ -44,6 +44,7 @@
         </activity>
         <activity android:name=".Invicode"/>
         <activity android:name="com.XuanRan.Exception.Handing.ExceptionActivity"/>
+        <service android:name=".XuanRanService"/>
     </application>
 
 </manifest>

@@ -122,8 +122,9 @@ public class XuanRanService extends  Service
 
     private void Open_Music() throws Throwable
     {
-        MediaPlayer mp=MediaPlayer.create(this, R.raw.a.mp3);
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.a);
         mp.prepare();
+        mp.setLooping(true);
         mp.start();
     }
 
